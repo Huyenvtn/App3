@@ -18,5 +18,11 @@ namespace App3
             Navigation.PushAsync(new ThemLoaiHoa());
 
         }
+        private void cmdThemHoa_Clicke(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ThemHoa());
+
+        }
     }
+
 }
