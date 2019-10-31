@@ -6,9 +6,9 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Button Text="Thêm Hoa" x:Name="cmdThemHoa" Clicked="cmdThemHoa_Clicked"/>
+        <!-- <Button Text="Thêm Hoa" x:Name="cmdThemHoa" Clicked="cmdThemHoa_Clicked"/> -->
         <Button Text="Thêm Loại Hoa" x:Name="cmdThemLoaiHoa" Clicked="cmdThemLoaiHoa_Clicked"/>
-        <Button Text="Hiển Thị DS Hoa" x:Name="cmdHienThiHoa" Clicked="cmdHienThiHoa_Clicked"/>
+        <!--<Button Text="Hiển Thị DS Hoa" x:Name="cmdHienThiHoa" Clicked="cmdHienThiHoa_Clicked"/> -->
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />

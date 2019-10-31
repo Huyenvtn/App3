@@ -13,5 +13,10 @@ namespace App3
         {
             InitializeComponent();
         }
+        private void cmdThemLoaiHoa_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ThemLoaiHoa());
+
+        }
     }
 }
